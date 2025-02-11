@@ -1,0 +1,3 @@
+our code has a small issue:
+You're replacing words in content, but you're not updating contentNew correctly in each iteration. As a result, only the last word in the words list is being replaced.
+
